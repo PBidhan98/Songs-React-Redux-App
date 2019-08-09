@@ -1,4 +1,5 @@
 import {combineReducers} from 'redux';
+//import from redux library
 
 //Reducers
 const songsReducer = () => {

@@ -1,8 +1,9 @@
-//Action Creator
+//Action Creator:- select song
 export const selectSong = (song) => {
   //Return an Action
   return {
     type: 'SONG_SELECTED',
     payload: song
+    //what song we are tring to select
   };
 };
